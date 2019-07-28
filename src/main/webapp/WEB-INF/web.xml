@@ -4,16 +4,36 @@
 
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
-
-
-    <display-name>Archetype Created Web Application</display-name>
-    <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>serevlet_demo.HelloWorld</servlet-class>
+<!--    <servlet>
+        <servlet-name>Demo1</servlet-name>
+        <servlet-class>serevlet_demo.Demo1</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/HelloWorld</url-pattern>
-    </servlet-mapping>
+        <servlet-name>Demo1</servlet-name>
+        <url-pattern>/Demo1</url-pattern>
+    </servlet-mapping>-->
+
+
+<!--    <servlet>
+        <servlet-name>Demo2</servlet-name>
+        <servlet-class>serevlet_demo.Demo2</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Demo2</servlet-name>
+        <url-pattern>/TomcatTest/Demo2</url-pattern>
+    </servlet-mapping>-->
+    
+<!--    <servlet>
+        <servlet-name>Demo3</servlet-name>
+        <servlet-class>serevlet_demo.Demo3</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Demo3</servlet-name>
+        <url-pattern>/Demo3</url-pattern>
+    </servlet-mapping>-->
+
+
 </web-app>

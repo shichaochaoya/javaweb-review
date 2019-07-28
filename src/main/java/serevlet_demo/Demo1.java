@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class HelloWorld extends HttpServlet {
+public class Demo1 extends HttpServlet {
 
     private String message;
 
@@ -19,14 +19,18 @@ public class HelloWorld extends HttpServlet {
 
         // 实际的逻辑是在这里
         PrintWriter out = resp.getWriter();
-        out.println("<h1>" + message + "</h1>");    }
+        out.println("<h1>" + message + "</h1>");
+    }
 
     @Override
     public void destroy() {
+        System.out.println("servlet destroy");
     }
 
     @Override
     public void init() throws ServletException {
-        message = "hello world";
+        message = "hello world , nice to meet u" + System.currentTimeMillis();
+        System.out.println("servlet init");
+        super.init();
     }
 }
