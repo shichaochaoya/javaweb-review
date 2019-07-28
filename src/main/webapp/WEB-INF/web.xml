@@ -35,5 +35,20 @@
         <url-pattern>/Demo3</url-pattern>
     </servlet-mapping>-->
 
+    <filter>
+        <filter-name>Filter</filter-name>
+        <filter-class>filter.Filter1</filter-class>
+        <init-param>
+            <param-name>Site</param-name>
+            <param-value>runoob</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>Filter</filter-name>
+        <url-pattern>/Demo8</url-pattern>
+    </filter-mapping>
+
+
+
 
 </web-app>
